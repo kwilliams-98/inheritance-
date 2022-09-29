@@ -31,7 +31,7 @@ class Dog(Mammal):
         Mammal.__init__(self, 'Dog')
 
     # The make_sound method overrides the superclass's
-    # make_sound method.
+    # make_sound method. (POLYMORPHISM)
     
     def make_sound(self):
         print('Woof! Woof!')
@@ -47,7 +47,7 @@ class Cat(Mammal):
         Mammal.__init__(self, 'Cat')
 
     # The make_sound method overrides the superclass's
-    # make_sound method.
+    # make_sound method. (POLYMORPHISM)
 
     def make_sound(self):
         print('Meow')

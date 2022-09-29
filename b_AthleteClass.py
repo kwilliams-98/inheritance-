@@ -1,6 +1,6 @@
 
 class Athlete:
-    def __init__(self,ht,wt,bodyfat):
+    def __init__(self,ht,wt,bodyfat): #this is efficient code!
         self.__ht = ht
         self.__wt = wt
         self.__bf = bodyfat
